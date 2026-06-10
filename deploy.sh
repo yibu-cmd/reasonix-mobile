@@ -83,7 +83,7 @@ After=network.target
 Type=simple
 User=root
 WorkingDirectory=/opt/reasonix-mobile
-Environment=DEEPSEEK_API_KEY=sk-86bd93760acd4edc9ad8aba18e903929
+Environment=DEEPSEEK_API_KEY=YOUR_DEEPSEEK_API_KEY_HERE
 Environment=PORT=3456
 Environment=WORKSPACE_ROOT=/opt/workspace
 ExecStart=/usr/bin/npm run start
